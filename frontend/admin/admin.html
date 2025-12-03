@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Delivery - Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f7fafc; }
+    </style>
+</head>
+<body>
+<div class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-xl shadow-2xl">
+    <h1 class="text-4xl font-extrabold text-gray-900 mb-8 border-b pb-2">Dashboard Admin 🚁</h1>
+    
+    <!-- Sezione Droni -->
+    <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-blue-700 mb-4">Droni disponibili</h2>
+        <ul id="droni-list" class="space-y-3">
+            <li class="text-gray-500">Caricamento droni...</li>
+        </ul>
+    </section>
+
+    <!-- Sezione Piloti -->
+    <section>
+        <h2 class="text-2xl font-semibold text-green-700 mb-4">Piloti certificati</h2>
+        <ul id="piloti-list" class="space-y-3">
+            <li class="text-gray-500">Caricamento piloti...</li>
+        </ul>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Aggiungere qui stili personalizzati, anche se Bootstrap copre la maggior parte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Leggero grigio chiaro */
+}
+
+/* Navbar per l'admin */
+.navbar-dark {
+    background-color: #343a40 !important; /* Grigio scuro standard */
+}
+
+/* Navbar per il cliente (già usata nel customer.html) */
+.bg-info {
+    background-color: #17a2b8 !important; /* Drone Blue */
+}
+
+/* Stile generico per le card */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
